@@ -17,7 +17,14 @@
 
 
 .prof-pic{
-    grid-area: prof-pic
+    grid-area: prof-pic;
+    display: flex;
+    align-items: center;
+}
+
+#profPic{
+    width: 100%;
+    height: auto;
 }
 
 .navbar{
