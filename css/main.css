@@ -44,6 +44,14 @@
 
 .prof-info{
     grid-area: prof-info;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 0 5vw;
+}
+
+.prof-info > h1{
+    align-self: center
 }
 
 .posts{
