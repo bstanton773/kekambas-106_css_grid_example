@@ -15,7 +15,6 @@
     ". posts posts posts posts .";
 }
 
-
 .prof-pic{
     grid-area: prof-pic;
     display: flex;
@@ -56,4 +55,27 @@
 
 .posts{
     grid-area: posts;
+}
+
+
+.post-card{
+    border: 1px solid black;
+    padding: 1%;
+}
+
+.card-links{
+    display: flex;
+    margin: 0 10vw;
+    justify-content: space-around;
+}
+
+.card-links > a{
+    text-decoration: none;
+    color: black;
+}
+
+.card-links > a:hover{
+    text-decoration: underline;
+    background-color: dodgerblue;
+    color: white;
 }
